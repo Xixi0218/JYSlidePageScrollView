@@ -11,5 +11,6 @@ Pod::Spec.new do |s|
   s.author       = { "yejinyong" => "616115891@qq.com" }
   s.source       = { :git => "https://github.com/616115891/JYSlidePageScrollView.git", :tag => "#{s.version}" }
   s.source_files  = "Sources/*.{h,m}"
+  s.public_header_files = 'Sources/*.h'
   s.ios.deployment_target = "9.0"
 end
